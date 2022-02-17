@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to left, rgb(76, 76, 216),rgb(155, 155, 212));
+    background-image: linear-gradient(to left, rgb(62, 62, 207),rgb(131, 131, 207),rgb(211, 211, 228));
 }
 .navbar-brand{
     color: cornflowerblue !important;
@@ -42,12 +42,13 @@ body{
 }
 h2{
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: rgb(165, 182, 214);
     padding: 10px;
     text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-product-row{
-    padding: 5%;
+.product-row{
+    padding: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -63,4 +64,16 @@ product-row{
 .card:hover{
     transform: scale(1.2);
     transition: all 0.8s;
+}
+.contacto{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.footer{
+    background-image: rgb(165, 182, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
